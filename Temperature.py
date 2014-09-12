@@ -1,10 +1,9 @@
 #Harry Derouich
 #12/09/14
-#Temperature Conversion
+#Weight and height conversion
 
-print("Hello User")
-temp_c = int(input("Enter the temperature in °C: "))
+print("Hello user!")
+height_inches = int(input("Please enter your height in inches: "))
+weight_stones = int(input("Please enter your weight in stones: "))
 
-temp_f = temp_c * 9 / 5 + 32
-
-print(temp_f)
+height_centi
