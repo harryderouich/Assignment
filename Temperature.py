@@ -1,9 +1,10 @@
 #Harry Derouich
 #12/09/14
-#Weight and height conversion
+#Temperature Conversion
 
 print("Hello user!")
-height_inches = int(input("Please enter your height in inches: "))
-weight_stones = int(input("Please enter your weight in stones: "))
+degrees_f = float(input("Please enter the temperature in Degrees Fahrenheit: "))
 
-height_centi
+degrees_c = (degrees_f - 32) * (5/9)
+
+print("The temperature in Degrees Celcius is: {0}".format(degrees_c))
