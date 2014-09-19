@@ -1,11 +1,13 @@
 #Harry Derouich
 #19/09/14
-#Currency Conversion exercise
+#Currency Conversion exercise.
 
 print("Hello User!")
 
+#User will enter the value they want calculating.
 whole_number = int(input("Please enter the total number: £"))
 
+#Calculating the number of currency denominations.
 twenty_notes = whole_number // 20
 twenty_remain = whole_number % 20
 
@@ -20,7 +22,5 @@ two_remain = five_remain % 2
 
 one_coin = two_remain // 1
 
+#The statement will be displayed.
 print("This goes into {0} £20 notes, {1} £10 notes, {2} £5 notes, {3} £2 coins, and {4} £1 coins.".format(twenty_notes, ten_notes, five_notes, two_coin, one_coin))
-
-
-
