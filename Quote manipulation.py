@@ -11,3 +11,6 @@ quote_title = quote.title()
 
 
 print("The quote in Upper case: '{0}'".format(quote_upper))
+print("The quote in lower case: '{0}'".format(quote_lower))
+print("The quote capitalized: '{0}'".format(quote_capital))
+print("The quote titled: '{0}'".format(quote_title))
